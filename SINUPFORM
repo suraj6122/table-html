@@ -1,0 +1,99 @@
+<form action="https://reqres.in/api/users" method="post">
+  <table border="1" cellpadding="10px" width="100%">
+    <tr>
+      <th>student sinup form:</th>
+    </tr>
+
+    <tr>
+      <td>student name <span style="color: red">*</span>:</td>
+      <td>
+        <input
+          type="text"
+          required
+          placeholder="your name"
+          name="student_name"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <td>Age:</td>
+      <td>
+        <input
+          type="number"
+          value="25"
+          required
+          placeholder="your age"
+          name="student_name"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <td>location:</td>
+      <td>
+        <select name="location">
+          <option value="kathmandu">kathmandu</option>
+          <option value="lalitpur">lalitpur</option>
+          <option value="bhaktapur">bhaktapur</option>
+          <option value="other">other</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>skills:</td>
+      <td>
+        <input type="checkbox" name="skill_1" value="html" /> html <br />
+        <input type="checkbox" name="skill_2" value="css" /> css<br />
+        <input type="checkbox" name="skill_3" value="js" />js<br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>Day or Night shift?</td>
+
+      <td>
+        <input type="radio" name="shift" value="DAY" /> Day
+        <input type="radio" name="shift" value="Night" checked /> Night
+      </td>
+    </tr>
+
+    <tr>
+      <td>description</td>
+      <td>
+        <textarea
+          name="description"
+          placeholder="write something......."
+          maxlength="100"
+        ></textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <button type="submit">sinup</button>
+        <button type="reset">reset</button>
+      </td>
+    </tr>
+
+  </table>
+<table>
+  <div  style="background: red; padding: 10px; margin: 5px;">
+  
+      <tr>
+        <td align="center">
+          sinup my newsletter!
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="email" name="email"/>
+        </td>
+      </tr>
+
+    </table>
+  
+  </div>
+</form>
