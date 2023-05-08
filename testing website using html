@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="./img/cat.jpg"/>
+    <title>my simple webpage</title>
+  </head>
+  <body>
+
+  <div style="background: #000;color: white;text-align: center;">
+    <div style="color:green;">
+      <br/>
+      <a href="./about us.html" target="_parent">about us </a>
+      <br/>
+      <br/>
+      <br/>
+      </div>
+  </div>
+
+
+    <div style="background-color: royalblue;text-align: center;">
+    <span style="font-size: 70px;font-weight: bold;">suraj acharya</span>
+    <br/>
+    <img src="img/cat.jpg" alt="my photo" style="height: 200px;"/>
+    </div>
+    <div style="background-color: aqua;">
+      i am freelancer.
+      <br />
+      <br />
+      i work with<b><i>&nbsp;nodejs and reactjs</i></b>
+      <br />
+      <br />
+
+      my working on nodejs is <del style="color:#00CCFF;background: black;">35$</del> &nbsp;&nbsp;<b><ins style="color: greenyellow;">25$</ins></b>
+
+      <br />
+      <br />
+    </div style="">
+<div style="color:green;">
+    <h2>About me:</h2>
+    i was born in <span style="color:red;font-size: 20px;">nepal</span>
+    </div>
+    <h3>learn about me:<a href="https:www.surazacharya.com.np" >show more!</a>
+      <a href="./about us.html" target="_parent">about us </a>
+
+    </div style="">
+    <div style="">
+        <h2>MY SKILLS:</h2>
+
+        <UL>
+       <li>NODEJS</li>
+       <li>REATSJS</li>
+       <li>HTML,CSS</li>
+
+
+        </UL>
+
+        </div>
+    
+
+      </div style="">
+      <div style="">
+          <h2>why trust me?</h2>
+  
+          <ol type="a" start="1">
+         <li>TIME DELIVERY</li>
+         <li>QUALITY CODE</li>
+         <li>QUCIK RESPONSES</li>
+  </UL>
+  
+          </div>
+
+    </h3>
+
+<div style="">
+  <h2>my project</h2>
+
+
+  <table width="50%" border>
+    <caption>students data</caption>
+<thead>
+    <tr>
+      <td>Name</td>
+      <td>Started</td>
+      <td>completed</td>
+    </tr>
+  </thead>
+
+
+    <tr>
+      <td>basic ecommerce</td>
+      <td align="center">2010</td>
+      <td align="right">2012</td>
+      
+    </tr>
+
+    <tr>
+      <td>Crm software</td>
+      <td align="center">2020</td>
+      <td align="right">2021</td>
+    </tr>
+    <tr>
+      <td>Erp software</td>
+      <td align="center">2022</td>
+      <td align="right">2023</td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" align="center">total students</td>
+        <td align="center">3</td>
+      </tr>
+    </tfoot>
+    </table>
+</div>
+
+<div style="background: #e5f8e5; padding: 10px; margin: 5px;">
+  <form method="post" action="https://reqres.in/api/users">
+  <table width="100%" >
+    <tr>
+      <td align="center">
+       <h3> sinup to my newsletter!</h3>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <input type="email" name="email" style="width: 100%;"/>
+      </td>
+      <td>
+   <button type="submit">sinup</button>
+      </td>
+    </tr>
+
+  </table>
+
+</div>
+<table>
+
+</table>
+</form>
+
+
+<video autoplay controls width="100%">
+<source SRC="./video/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+
+
+</video>
+
+    </body></h3> 
+</html>
